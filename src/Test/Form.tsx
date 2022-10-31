@@ -29,7 +29,7 @@ function Form() {
     <div className="form-base">
       <h1>4. Submit a form</h1>
       <form onSubmit={onSubmit}>
-        <div className="flex flex-1">
+        <div className="flex flex-1 inline">
           <div className="flex-1">
             <label
               htmlFor="userName"
@@ -48,7 +48,7 @@ function Form() {
           </div>
         </div>
         <br />
-        <div className="flex flex-1">
+        <div className="flex flex-1 inline">
           <div className="flex-1">
             <label
               htmlFor="fullName"
@@ -67,7 +67,7 @@ function Form() {
           </div>
         </div>
         <br />
-        <div className="flex flex-1">
+        <div className="flex flex-1 inline">
           <div className="flex-1">
             <label
               htmlFor="age"
